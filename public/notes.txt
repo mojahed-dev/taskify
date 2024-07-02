@@ -1,0 +1,32 @@
+// Notes:
+// let name: string;
+// // let name: any; // will accept any type (not recommended)
+// let personName: unknown; // will accept any type (recommended)
+// let age: number | string; // union (|) - can be both number and string type
+// let iStudent: boolean;
+// let hobbies: string[];
+// let role:[number, string]; // A tuple is a typed array with a pre-defined length and types for each index.
+
+// 2 types of defining a function:
+// First:
+// let printName: Function;
+// Second
+// let printName: (name:string) => void; // void returns undefined while never does not return anything
+
+
+
+// type Person ={
+//   name: String;
+//   age?: number;
+// }
+
+// let person: Person = {
+//   name: "Mojahed",
+// };
+
+// let lotsOfPeople: Person[];
+
+// interface Person {
+//   name: string;
+//   age?:number;
+// }
